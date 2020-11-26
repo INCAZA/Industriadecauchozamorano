@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario Ingreso Proveedor</title>
+		<link rel="stylesheet" type="text/css" href="estilo_formulario.css">		 
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar_proveedor.php" method="POST">
+				<p>Nombre proveedor</p>
+				<label for="Nombre">Nombre</label>
+				<br>
+				<input type="text" name="Nombre" placeholder="nombre" required>
+				<p>Ciudad</p>
+				<label for="Ciudad">Ciudad</label>
+				<br>
+				<input type="text" name="Ciudad" placeholder="Ciudad" required>
+				<p>Telefono</p>
+				<label for="Telefono">Telefono</label>
+				<br>
+				<input type="text" name="Telefono" placeholder="telefono" required>
+				<p>Nit</p>
+				<label for="Nit">Nit</label>
+				<br>
+				<input type="text" name="Nit" placeholder="Numero del Nit" required>
+			    <br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>

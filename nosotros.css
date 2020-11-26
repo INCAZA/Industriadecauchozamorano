@@ -1,0 +1,19 @@
+.titulo {
+  text-align: center;
+  color: black;
+  margin: auto;
+  letter: size=100;
+  background: yellow;
+}
+video {
+	width: 300px;
+	align: center;
+}
+
+figure {
+	margin: 60px;
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 200px;
+	border-spacing: 100px;

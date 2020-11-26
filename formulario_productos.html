@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario Ingreso Productos</title>
+		<link rel="stylesheet" type="text/css" href="estilo_formulario.css">		 
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar_producto.php" method="POST">
+				<p>Nombre producto</p>
+				<label for="Nombre">Nombre del producto</label>
+				<br>
+				<input type="text" name="Nombre" placeholder="nombre" required>
+				<p>Cantidad</p>
+				<label for="Cantidad">Cantidad</label>
+				<br>
+				<input type="text" name="Cantidad" placeholder="cantidad" required>
+				<p>Valor</p>
+				<label for="Valor">Valor</label>
+				<br>
+				<input type="text" name="Valor" placeholder="valor" required>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>
